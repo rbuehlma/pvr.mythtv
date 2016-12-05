@@ -1,3 +1,19 @@
+v5.0.0
+- Initial Kodi v18 version
+
+v4.11.0
+- Handle recording last played position from the backend
+- Bookmark at current position in a recording when you press record on LiveTV
+
+v4.10.1
+- Minor bug fixes
+
+v4.10.0
+- Sync cppmyth upstream (2.8.1) with support of content-encoding gzip/deflate for WS API
+
+v4.9.2
+- Updated to PVR addon API v5.2.1
+
 v4.9.0
 - Extra timer info
 
