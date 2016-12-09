@@ -1268,6 +1268,21 @@ time_t GetBufferTimeEnd()
 
 bool IsTimeshifting(void) { return true; }
 
+PVR_ERROR IsRecordable(const EPG_TAG& tag, bool* isRecordable) {
+
+  return PVR_ERROR_NOT_IMPLEMENTED;
+}
+
+bool IsPlayable(const EPG_TAG &tag) {
+    return false;
+}
+ 
+int GetEpgTagUrl(const EPG_TAG &tag, char *url, int urlLen) {
+ return 0;
+}
+
+
+
 /*
  * Unused API Functions
  */
